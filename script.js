@@ -28,7 +28,7 @@ function getSunrisesunsetdata(){
         sunrisesunsetContainer.innerHTML=
         `<div class="card">
         <div class="card-header">
-         <h3>Sunrise-sunset</h3>
+         <h3>Sunrise-sunset ${data.name}</h3>
         </div>
         <div class="card-body">  
           <p class="card-text"><h5>Sunrise:</h5>${data1.results.sunrise}</p>                      
